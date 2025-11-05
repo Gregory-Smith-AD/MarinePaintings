@@ -1,6 +1,6 @@
 @font-face {
   font-family: Brandon;
-  src: url('../fonts/Brandon_thin.otf') format("opentype");
+  src: url('/fonts/Brandon_thin.otf') format("opentype");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -848,7 +848,7 @@
 }
 
 .div-block-34 {
-  background-image: url('../images/Maiden_Small.webp');
+  background-image: url('/images/Maiden_Small.webp');
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2469,7 +2469,7 @@
 .image-7 {
   opacity: 1;
   object-fit: cover;
-  background-image: url('../images/Golden_Hinde_Ternate.jpg');
+  background-image: url('/images/Golden_Hinde_Ternate.jpg');
   background-position: 0 0;
   background-size: auto;
   flex: 0 auto;s
@@ -2935,13 +2935,13 @@
 }
 
 .lightbox-link-59 {
-  background-image: url('../images/Takao_Commission.jpg');
+  background-image: url('/images/Takao_Commission.jpg');
   background-position: 50%;
   background-size: cover;
 }
 
 .lightbox-link-60 {
-  background-image: url('../images/Commission_WIP_30lr.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url('/images/Commission_WIP_30lr.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
   background-position: 50%, 0 0;
   background-size: cover, auto;
 }
