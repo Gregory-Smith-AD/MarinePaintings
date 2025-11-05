@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cloudflare Asset Test</title>
+  <style>
+    @font-face {
+      font-family: 'YourFont';
+      src: url('/fonts/Brandonthin.otf'); /* Adjust to your actual font file path and extension */
+    }
+    body {
+      font-family: 'YourFont', Arial, sans-serif;
+    }
+    .font-test {
+      font-size: 2em;
+      color: #222;
+      margin-bottom: 2em;
+    }
+    img {
+      border: 2px solid #bada55;
+      max-width: 400px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="font-test">This should appear in your custom font if loading works.</div>
+  <img src="/images/IntroTernate.webp" alt="Should show main image if path and file are correct">
+  <img src="/assets/Commissions/Celandine.webp" alt="Should show an asset from a subfolder, update path as needed">
+  <p>If you see red X or broken image, the path or repo file is the issue.<br>
+    If the top text is not styled in your custom font, the font path or file is missing or wrong.</p>
+</body>
+</html>
